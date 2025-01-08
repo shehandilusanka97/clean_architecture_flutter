@@ -1,4 +1,5 @@
 import 'package:clean_architecture/application/core/services/theme_service.dart';
+import 'package:clean_architecture/application/pages/advice/advice_page.dart';
 import 'package:clean_architecture/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         theme: AppTheme.lightTheme,
         debugShowCheckedModeBanner: false,
         darkTheme: AppTheme.darkTheme,
-        home: const Scaffold(),
+        home: AdvicePage(),
       );
     });
   }
