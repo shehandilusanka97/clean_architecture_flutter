@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         theme: AppTheme.lightTheme,
         debugShowCheckedModeBanner: false,
         darkTheme: AppTheme.darkTheme,
-        home: AdvicePage(),
+        home: const AdvicerPageWrapperProvider(),
       );
     });
   }
